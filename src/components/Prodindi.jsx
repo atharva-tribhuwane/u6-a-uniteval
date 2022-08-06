@@ -32,7 +32,7 @@ export const Prodindi = () => {
             }
         })
         .then((res) => res.json())
-        .then((res)=> console.log(res))
+        .then((res)=> {console.log(res); alert("Added to cart")})
         .catch((err)=> console.log(err))
 
     }
