@@ -21,7 +21,7 @@ export const Prodindi = () => {
     })
     const handlecart = () => {
         const payload = {
-            "product_id":"",
+            "product_id":id,
             "quantity":1 
         }
         fetch("http://localhost:8080/cart",{
